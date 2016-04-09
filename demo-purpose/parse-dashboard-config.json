@@ -1,0 +1,25 @@
+// parse-dashboard-config.json
+// MUST change localhost to a public accessible IP, otherwise it wont work
+// appId and masterKey must be the same as well.
+
+
+{
+  "apps": [
+    {
+        "serverURL": "http://localhost:1337/parse",
+        "appId": "myAppId",
+        "masterKey": "myMasterKey",
+        "appName": "MyApp"
+    }
+  ],
+  "users": [
+    {
+      "user":"andy",
+      "pass":"andy"
+    },
+    {
+      "user":"alan",
+      "pass":"alan"
+    }
+  ]
+}
