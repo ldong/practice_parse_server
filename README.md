@@ -62,6 +62,8 @@ Steps:
 
 run `parse-dashboard --config parse-dashboard-config.json --allowInsecureHTTP=1;`
 
+Alternative is to install: https://github.com/ParsePlatform/parse-server-example
+
 ## Screenshots
 
 Login
