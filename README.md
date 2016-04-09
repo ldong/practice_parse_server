@@ -62,6 +62,15 @@ Steps:
 
 run `parse-dashboard --config parse-dashboard-config.json --allowInsecureHTTP=1;`
 
+## Screenshots
+
+Login
+
+![](./screenshots/login.png)
+
+Loggined
+
+![](./screenshots/loggedIn.png)
 
 
 # Reference
