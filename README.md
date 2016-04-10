@@ -6,6 +6,16 @@
 
 *Gist*
 
+Node
+
+```bash
+curl -sL https://deb.nodesource.com/setup_5.x -o nodesource_setup.sh
+sudo -E bash ./nodesource_setup.sh
+sudo apt-get install -y nodejs build-essential github
+```
+
+Mongo
+
 ```
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
 
@@ -79,7 +89,7 @@ Loggined
 
 1. [ParsePlatform/parse-server: Parse-compatible API server module for Node/Express](https://github.com/ParsePlatform/parse-server)
 2. [ParsePlatform/parse-dashboard: A dashboard for managing your Parse apps that aren't hosted on Parse.com](https://github.com/ParsePlatform/parse-dashboard)
-3.[ParsePlatform/parse-server: Parse-compatible API server module for Node/Express](https://github.com/ParsePlatform/parse-server#configuration)
+3. [ParsePlatform/parse-server: Parse-compatible API server module for Node/Express](https://github.com/ParsePlatform/parse-server#configuration)
 4. [How To Run Parse Server on Ubuntu 14.04 | DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-run-parse-server-on-ubuntu-14-04)
 5. [Complete Parse Server migration guide | Julien Renaux Blog](http://julienrenaux.fr/2016/01/29/complete-parse-server-migration-guide/)
 6. [如何自行架設 Parse API Server](http://www.jollen.org/blog/2016/02/how-to-setup-parse-api-server.html)
